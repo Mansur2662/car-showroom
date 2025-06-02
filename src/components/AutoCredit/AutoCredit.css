@@ -1,0 +1,169 @@
+
+.car-loan-page {
+    background-image: url('/car-photo/neta.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .contentt {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); 
+    animation: fadeIn 1s ease-in-out; 
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .contentt h5 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #2a9d8f; 
+    font-weight: 700;
+  }
+  
+  .intro-text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .loan-detailss {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .loan-detailss h6 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #264653; 
+    font-weight: 600;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    padding-left: 20px;
+    position: relative;
+  }
+  .ul li::before {
+    content: '✔️';
+    position: absolute;
+    left: 0;
+    color: #2a9d8f; 
+  }
+ 
+  
+  .cta {
+    margin-top: 30px;
+  }
+  
+  .cta-buttonn {
+    background: linear-gradient(135deg, #2a9d8f, #264653); 
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 50px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(42, 157, 143, 0.3); 
+  }
+  
+  .cta-buttonn:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 20px rgba(42, 157, 143, 0.4); 
+  }
+  
+  /* Адаптивные стили */
+  @media (max-width: 1258px) {
+    .contentt {
+      padding: 30px;
+    }
+  
+    h5 {
+      font-size: 36px;
+    }
+  
+    .intro-text {
+      font-size: 16px;
+    }
+  
+    h6 {
+      font-size: 24px;
+    }
+  
+    ul li {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 834px) {
+    .contentt {
+      padding: 20px;
+    }
+  
+    h5 {
+      font-size: 32px;
+    }
+  
+    .intro-text {
+      font-size: 15px;
+    }
+  
+    h6 {
+      font-size: 22px;
+    }
+  
+    .cta-buttonn {
+      font-size: 16px;
+      padding: 12px 30px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .contentt {
+      padding: 15px;
+    }
+  
+    h5 {
+      font-size: 28px;
+    }
+  
+    .intro-text {
+      font-size: 14px;
+    }
+  
+    h6 {
+      font-size: 20px;
+    }
+  
+    .cta-buttonn {
+      font-size: 14px;
+      padding: 10px 25px;
+    }
+  }

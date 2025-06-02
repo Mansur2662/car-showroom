@@ -1,0 +1,207 @@
+.about-container {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url('/car-photo/NetaX2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .aboutH {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    position: relative;
+  }
+  
+  .aboutH::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100px;
+    height: 3px;
+    background: #ff4d4d;
+  }
+  
+  .aboutT {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-bottom: 3rem;
+    background: rgba(0,0,0,0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .feature-card {
+    background: rgba(255,255,255,0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255,255,255,0.15);
+  }
+  
+  .feature-card h3 {
+    color: #ff4d4d;
+    margin-bottom: 1rem;
+  }
+  
+  .ctaa-button {
+    background: #ff4d4d;
+    color: white;
+    padding: 1rem 2.5rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 2rem;
+  }
+  
+  .ctaa-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255,77,77,0.4);
+  }
+  
+  @media (max-width: 1258px) {
+    .about-header {
+      font-size: 3rem;
+    }
+    
+    .about-text {
+      font-size: 1.1rem;
+      padding: 1.8rem;
+    }
+    
+    .feature-card {
+      padding: 1.8rem;
+    }
+  }
+  
+ 
+  @media (max-width: 834px) {
+    .about-container {
+      padding: 1.5rem;
+    }
+    
+    .content-wrapper {
+      padding: 1.5rem;
+    }
+    
+    .about-header {
+      font-size: 2.8rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .about-header::after {
+      width: 80px;
+      height: 2px;
+    }
+    
+    .about-text {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+    }
+    
+    .features-grid {
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    
+    .feature-card {
+      padding: 1.5rem;
+    }
+    
+    .ctaa-button {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+    }
+  }
+  
+ 
+  @media (max-width: 360px) {
+    .about-container {
+      padding: 1rem;
+    }
+    
+    .content-wrapper {
+      padding: 1rem;
+    }
+    
+    .about-header {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .about-header::after {
+      bottom: -5px;
+      width: 60px;
+    }
+    
+    .about-text {
+      font-size: 0.95rem;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
+    
+    .features-grid {
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    
+    .feature-card {
+      padding: 1rem;
+    }
+    
+    .feature-icon {
+      font-size: 2rem;
+    }
+    
+    .feature-card h3 {
+      font-size: 1.2rem;
+    }
+    
+    .ctaa-button {
+      width: 100%;
+      padding: 0.8rem;
+      font-size: 0.95rem;
+    }
+  }

@@ -1,0 +1,240 @@
+.premvo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 350px;
+  }
+  
+  .Premvo-1 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+      }          
+  
+
+      .flexp{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      
+      }
+
+
+
+
+      .card {
+        width: 255px;
+        height: 180px;
+        border: 2px solid #C7C7C7; 
+        padding: 15px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        box-sizing: border-box; 
+        
+        background-color: #fff; 
+        border-radius: 4px;  
+        box-shadow: 10px 10px 24px 0px #BCBCBC40;  
+      }
+      
+      .card-image {
+        width: 64px;  
+        height: 64px;  
+        object-fit: cover;  
+      }
+      
+      .card-title {
+        font-size: 16px;
+        color: #424242; 
+        margin: 0;  
+        line-height: 1.4;  
+      }
+      
+
+
+
+
+
+      @media (max-width: 1258px) {
+        .premvo {
+          max-width: 800px; 
+          padding: 10px;  
+          height: 350px;  
+      }
+  
+      .Premvo-1 {
+          flex-direction: column;  
+          align-items: flex-start; 
+         font-size: 12px;
+          margin-bottom: 15px;
+          margin-left: 20px;
+      }
+  
+      .flexp {
+          display: flex;
+          flex-wrap: wrap;  
+          justify-content: space-between;  
+          margin-bottom: 20px;
+      }
+  
+      .card {
+          width: 170px;  
+          height: 170px;  
+          margin-bottom: 20px;  
+          margin-right: 20px; 
+          display: block;
+          position: relative; 
+          left: 20px; 
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          box-sizing: border-box;  
+      }
+  
+     
+      .flexp .card:nth-child(2n) {
+          margin-right: 0; 
+      }
+  
+      .card-image {
+          width: 50px;  
+          height: 50px;  
+      }
+  
+      .card-title {
+          font-size: 14px;  
+      }
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      @media (max-width: 834px) {
+        .premvo {
+            max-width: 460px;  
+            padding: 10px;  
+            height: 600px;  
+        }
+    
+        .Premvo-1 {
+            flex-direction: column;  
+            align-items: flex-start;  
+           font-size: 12px;
+            margin-bottom: 15px;
+        }
+    
+        .flexp {
+            display: flex;
+            flex-wrap: wrap;  
+            justify-content: space-between;  
+            margin-bottom: 20px;
+        }
+    
+        .card {
+            width: 220px;  
+            height: 180px;  
+            margin-bottom: 20px;  
+            margin-right: 20px;  
+            display: block;
+            position: relative; 
+            left: 10px; 
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            box-sizing: border-box;  /* Чтобы padding и margin не увеличивали размеры */
+        }
+    
+        /* Чтобы на экранах с шириной меньше 834px карточки располагались по два в ряду */
+        .flexp .card:nth-child(2n) {
+            margin-right: 0; 
+        }
+    
+        .card-image {
+            width: 50px;  
+            height: 50px;  
+        }
+    
+        .card-title {
+            font-size: 14px;  
+        }
+    }
+    
+      
+    
+  
+  
+  
+      
+    @media (max-width: 360px) {
+      .premvo {
+          max-width: 360px;  
+          padding: 10px;  
+          height: 1000px;  
+      }
+  
+      .Premvo-1 {
+          flex-direction: column;  
+          align-items: flex-start;  
+         font-size: 8px;
+          margin-bottom: 15px;
+      }
+  
+      .flexp {
+          display: flex;
+          flex-wrap: wrap;  
+          justify-content: space-between;  
+          margin-bottom: 20px;
+      }
+  
+      .card {
+          width: 220px;  
+          height: 180px;  
+          margin-bottom: 20px;  
+          margin-right: 20px;  
+          display: block;
+          position: relative; 
+          left: 10px; 
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          box-sizing: border-box;  
+      }
+  
+     
+      .flexp .card:nth-child(2n) {
+          margin-right: 0; 
+      }
+  
+      .card-image {
+          width: 50px;  
+          height: 50px;  
+      }
+  
+      .card-title {
+          font-size: 14px;  
+      }
+  }

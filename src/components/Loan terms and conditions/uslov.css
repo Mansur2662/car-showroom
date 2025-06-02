@@ -1,0 +1,198 @@
+.uslov {
+    display: flex;
+    flex-direction: column; 
+    
+    gap: 20px; 
+    height: 170px;
+    width: 340px;
+    
+  }
+  
+  
+  .uslov h1 {
+    margin: 0; 
+    font-size: 32px;
+    width: 578px;
+    height: 20px;
+    top: 80px;
+    left: 80px;
+    position: relative;
+  }
+  .uslov p{
+    left: 960px;
+    height: 10px;
+    position: relative;
+    color: #424242;
+    font-size: 16px;
+    margin: 0;
+    top: 50px;
+  }
+
+
+
+
+
+  .flexpp{
+    display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        
+  }
+
+
+.cardd{
+    width: 540px;
+    height: 340px;
+    border: 2px solid #C7C7C7;  
+        padding: 50px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        box-sizing: border-box; 
+        
+        background-color: #fff; 
+        border-radius: 4px;  
+        box-shadow: 10px 10px 24px 0px #BCBCBC40;  
+        
+}
+
+
+
+.uslovs{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 650px;
+   
+}
+
+.cardd-title {
+    font-size: 16px;
+    color: #424242; 
+    margin: 0;  
+    line-height: 1.4;  
+  }
+  .cardd-image {
+    width: 75px;  
+    height: 72px;  
+    object-fit: cover;  
+  }
+
+
+
+
+
+  @media (max-width: 834px) {
+
+ 
+    .uslov {
+      width: 100%;  
+      height: 70px;  
+      gap: 20px;  
+    }
+   
+  
+    .uslov h1 {
+      font-size: 24px;  
+      width: 100%;  
+      position: static;  
+      text-align: center;  
+    }
+  
+    .uslov p {
+      font-size: 14px;  
+      text-align: center;  
+      position: static;  
+      top: 0;  
+      
+    }
+  
+    
+    .flexpp {
+      justify-content: space-around;  
+      flex-wrap: wrap;  
+    }
+  
+ 
+    .cardd {
+      width: 60%;  
+      padding: 20px;  
+      height: auto;  
+      box-shadow: 5px 5px 15px 0px #BCBCBC40;  
+    }
+  
+    .cardd-title {
+      font-size: 14px;  
+    }
+  
+    .cardd-image {
+      width: 60px;  
+      height: 60px;  
+    }
+  
+   
+    .uslovs {
+      height: 800px;  
+      padding: 20px; 
+    }
+  }
+  
+
+
+
+
+
+  @media (max-width: 360px) {
+
+   
+    .uslov {
+      width: 100%;  
+      height: auto;  
+      gap: 10px;  
+      padding: 10px; 
+    }
+  
+    .uslov h1 {
+      font-size: 18px;  
+      width: 100%; 
+      position: static;  
+      text-align: center;  
+    }
+  
+    .uslov p {
+      font-size: 12px;  
+      text-align: center;  
+      position: static;  
+      top: 0;  
+    }
+  
+ 
+    .flexpp {
+      justify-content: space-between;  
+      flex-wrap: wrap;  
+    }
+  
+    
+    .cardd {
+      width: 90%;  
+      padding: 10px;  
+      height: auto;  
+      box-shadow: 3px 3px 10px 0px #BCBCBC40;  
+      margin-bottom: 10px; 
+    }
+  
+    .cardd-title {
+      font-size: 12px;  
+    }
+  
+    .cardd-image {
+      width: 50px;  
+      height: 50px;  
+    }
+  
+    
+    .uslovs {
+      height: 900px;  
+      padding: 10px;  
+    }
+  }

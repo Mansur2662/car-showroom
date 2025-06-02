@@ -1,0 +1,233 @@
+
+.container {
+  height: 150px;
+  width: 1300px;
+}
+
+.background {
+  background-image: url('/application/Fon.png');
+  background-repeat: no-repeat;
+ 
+  height: 972px;
+  max-width: 1728px;
+  top: -250px;
+  left: 260px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  left: 30px;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.form-containerr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+  margin-left: -200px;
+}
+
+.input-field {
+  width: 140px;
+  height: 60px;
+  background-color: white;
+  color: #C7C7C7;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+  
+}
+
+.submit-button {
+  width: 180px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #DC4433;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  margin-left: 120px;
+  gap: 10px;
+}
+
+
+
+
+
+@media (max-width: 1258px) {
+  
+.container {
+  height: 170px;
+  width: 1300px;
+}
+
+.background {
+  background-image: url('/application/Fon.png');
+  background-repeat: no-repeat;
+ 
+  height: 972px;
+  max-width: 940px;
+  top: -250px;
+  left: 180px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  left: 30px;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.form-containerr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 100px;
+  margin-left: -40px;
+}
+
+.input-field {
+  width: 140px;
+  height: 60px;
+  background-color: white;
+  color: #C7C7C7;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 5px;
+  
+}
+
+
+
+.form-containerr h5 {
+  width: 150px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #DC4433;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.privacy-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  margin-left: 120px;
+  gap: 10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 834px) {
+  
+  .background {
+      background-image: url('/application/application(834px).png');
+      left: 200px;
+      top: -200px; ;
+  }
+
+
+  .title, .subtitle, .form-container, .input-field, .submit-button, .privacy-policy {
+      display: none;
+  }
+  .submit-button{
+    display: none !important
+  }
+  .container {
+    height: 400px;
+   
+  }
+
+}
+
+@media (max-width: 360px) {
+  
+  .background {
+      background-image: url('/application/application(360px).png');
+      left: 30px;
+      top: -200px; ;
+  }
+
+ 
+  .title, .subtitle, .form-container, .input-field, .submit-button, .privacy-policy {
+      display: none;
+  }
+  .submit-button{
+    display: none !important
+  }
+
+}

@@ -1,0 +1,721 @@
+
+
+header {
+  height: 910px;
+}
+
+.header-1 {
+  background-color: #000000;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 70px;
+  height: 50px;
+  max-width: 1728px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+}
+
+.header-item img {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.header-1 p {
+  margin: 0;
+}
+
+.header--2 {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  gap: 50px;
+  height: 40px;
+  max-width: 1728px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.header--2 a {
+  text-decoration: none;
+  color: #424242;
+  position: relative;
+  left: 30px;
+}
+
+.header--2 img {
+  position: relative;
+  left: -16px;
+}
+
+.background-section-1 {
+  background-image: url('/header/city-2.png');
+  background-repeat: no-repeat;
+  height: 750px;
+  max-width: 1728px;
+  top: -293px;
+  background-color: #000000;
+}
+
+.durunisurat {
+  color: #FFFFFF;
+  width: 578px;
+  height: 48px;
+  top: 80px;
+  left: 309px;
+  position: relative;
+}
+
+.durunisurat h2 {
+  color: white;
+  margin-left: -70px;
+}
+
+.cherniyfon-3{
+  font-size: 24px;
+  background-color: #000000;
+  width: 312px;
+  height: 30px;
+}
+.cherniyfon-4{
+  font-size: 24px;
+  background-color: #000000;
+  width: 190px;
+  height: 30px;
+}
+
+.highlight-text {
+  color: red;
+}
+
+.image-container {
+  display: flex;
+}
+
+.car-image-jip {
+  position: relative;
+  width: 934px;
+  height: 486px;
+  top: -50px;
+  left: 448px;
+}
+
+.car-image-kiak7 {
+  width: 498px;
+  height: 275px;
+  top: 140px;
+  left: 40px;
+  position: relative;
+}
+
+.background-section-2 {
+  background-image: url('/header/Fon.png');
+  background-repeat: no-repeat;
+  height: 972px;
+  max-width: 1728px;
+  top: -240px;
+  position: relative;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-header h1 {
+  color: white;
+  margin-right: 200px;
+  font-size: 32px;
+  
+}
+
+.car-type {
+  width: 160px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.new {
+  background-color: white;
+  color: red;
+}
+
+.used {
+  border: 2px solid white;
+  color: white;
+}
+
+.taxi {
+  border: 2px solid white;
+  color: white;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.filter-option {
+  width: 255px;
+  height: 60px;
+  background-color: white;
+  color: #C7C7C7;
+  font-size: 16px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+}
+
+.separator {
+  height: 60px;
+  width: 2px;
+  background-color: #C7C7C7;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.select-button {
+  background-color: #DC4433;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Bmenu {
+  display: none !important; 
+}
+
+
+.tel{
+  display: none;
+}
+
+.Headerr{
+  display: none;
+}
+.Fotoo{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1258px) {
+
+   .header-1 {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 14px;
+    gap: 70px;
+    height: 50px;
+    max-width: 1258px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+  .header--2 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 50px;
+    height: 40px;
+    max-width: 1258px;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  .Bmenu {
+    display: flex !important; 
+    
+  }
+  
+  
+  .header--2 a {
+   display: none;
+  }
+  
+  .header--2 img {
+    position: relative;
+    left: 10px;
+  }
+
+
+  .background-section-1 {
+    height: 750px; 
+    width: 1258px;
+  }
+
+  .durunisurat {
+    color: #FFFFFF;
+    width: 578px;
+    height: 48px;
+    top: 80px;
+    left: 309px;
+    position: relative;
+  }
+  .durunisurat h2 {
+    color: white;
+    margin-left: -100px;
+  }
+  .image-container {
+    display: flex;
+  }
+
+  .car-image-jip {
+    position: relative;
+    width: 728px;
+    height: 420px;
+    top: 20px;
+    left: 320px;
+  }
+  
+  .car-image-kiak7 {
+    width: 384px;
+    height: 212px;
+    top: 200px;
+    left: 10px;
+    position: relative;
+  }
+   
+ 
+ 
+
+  .background-section-2 {
+    height: 800px; 
+  }
+
+  .section-header h1 {
+    font-size: 28px; 
+    margin-right: 50px; 
+  }
+
+  .car-type {
+    width: 140px; 
+    height: 35px; 
+    font-size: 14px; 
+  }
+
+  .filter-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .filter-option {
+    width: 220px;
+    height: 60px;
+    background-color: white;
+    color: #C7C7C7;
+    font-size: 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .price-range {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .separator {
+    height: 60px;
+    width: 2px;
+    background-color: #C7C7C7;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .select-button {
+    background-color: #DC4433;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+  }
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 834px) {
+  .Headerr{
+   display: block;
+   height: 120px;
+  }
+  .header-1 {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 14px;
+    gap: 20px;
+    height: 40px;
+    max-width: 834px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+  
+  .header-item {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .header-item img {
+    margin-right:5px; 
+    width: 20px; 
+    height: 20px;
+  }
+  
+  .header-1 p {
+    margin: 0; 
+  }
+
+
+
+
+
+  .header-2 {
+    background-color:  #FFFFFF;
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    font-size: 14px;
+    gap: 50px;                 
+    height: 40px;
+    max-width: 834px;         
+    margin: 10px auto;         
+    padding: 10px;             
+  }
+  
+
+  .header-2 .logotip2 img {
+    position: relative; 
+    left: -16px;
+    width: 140px;
+    height: 26px;
+  }
+
+
+  
+
+  header{
+    display: none;
+  }
+  .Headerr{
+    display: block;
+    height: 1300px;
+  }
+
+  .Fotoo{
+    display: block;
+  
+  }
+}
+
+
+
+
+
+@media (max-width: 360px) {
+
+  .header-1 {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 12px; 
+    gap: 30px; 
+    height: 40px; 
+    max-width: 360px; 
+    margin: 0 auto; 
+    padding: 0 100px; 
+    display: block;
+    
+  }
+  .header-item:nth-child(1),
+  .header-item:nth-child(2) {
+    display: none;
+  }
+
+  
+ 
+  .header-item:nth-child(4) {
+    display: block;
+    
+  }
+
+  .Headerr{
+    display: none;
+  }
+  header{
+    display: block;
+    height: 720px;
+  }
+  .durunisurat h2 {
+    color: white;
+    margin-left: -10px;
+  }
+  .header--2 {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; 
+    gap: 30px; 
+    height: 35px; 
+    max-width: 100%; 
+    margin: 10px auto;
+    padding: 5px; 
+  }
+
+  .Bmenu {
+    display: flex !important;
+    flex-direction: column; 
+  }
+
+  .header--2 a {
+    display: none;
+  }
+
+  .header--2 img {
+    position: relative;
+    left: 5px; 
+  }
+
+  .background-section-1 {
+    height: 560px; 
+    width: 360px;
+  }
+
+  .durunisurat {
+    color: #FFFFFF;
+    width: 300px; 
+    height: 40px;
+    top: 40px; 
+    left: 20px; 
+    position: relative;
+    font-size: 10px; 
+  }
+  .cherniyfon-3{
+    font-size: 14px;
+    background-color: #000000;
+    width: 180px;
+    height: 15px;
+  }
+  .cherniyfon-4{
+    font-size: 14px;
+    background-color: #000000;
+    width: 110px;
+    height: 15px;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column; 
+  }
+
+  .car-image-jip {
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    top: 60px;
+    margin-left: -350px;
+  }
+
+  .car-image-kiak7 {
+    width: 180px; 
+    height: 120px; 
+    top: -70px; 
+    left: 160px;
+    position: relative;
+  }
+
+  .background-section-2 {
+    height: 560px; 
+    width: 360px;
+   
+  }
+
+  .section-header h1 {
+    font-size: 20px; 
+    margin-right: 20px; 
+  }
+
+  .car-type {
+    width: 120px; 
+    height: 30px; 
+    font-size: 12px; 
+  }
+
+  .filter-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    flex-wrap: wrap; 
+    flex-direction: row; 
+}
+
+.filter-option {
+    width: 120px; 
+    height: 50px; 
+    background-color: white;
+    color: #C7C7C7;
+    font-size: 14px; 
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.price-range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.separator {
+    height: 50px; 
+    width: 2px;
+    background-color: #C7C7C7;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.select-button {
+    background-color: #DC4433;
+    color: white;
+    font-size: 14px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 10px; 
+}
+
+}

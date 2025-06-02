@@ -1,0 +1,164 @@
+.bbbb {
+    background-image: url("/Photo/Dubai3.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    width: 100%; 
+  }
+  
+  .mileage-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.8);
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flexx {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+  .header-sectionn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .mileage-page h1 {
+    font-size: 32px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .mileage-page .view-alll {
+    color: #007bff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin: 0;
+  }
+  
+  .mileage-page .view-alll:hover {
+    color: #0056b3;
+  }
+  
+  .top-imagee {
+    width: 320px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .card-containerr {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-containerr:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-titlee {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-descriptionn {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+  }
+  
+  .card-linee {
+    height: 1px;
+    background-color: #ddd;
+    margin: 10px 0;
+  }
+  
+  .card-roww {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 0;
+  }
+  
+  .bold-textt {
+    font-weight: 600;
+  }
+  
+  .red-text {
+    color: #dc4433;
+    font-weight: 600;
+  }
+  
+  .strike-throughh {
+    text-decoration: line-through;
+    color: #777;
+  }
+  
+  .card-buttonn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-buttonn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Адаптивные стили */
+  @media (max-width: 1258px) {
+    .mileage-page {
+      max-width: 950px;
+    }
+  
+    .card-containerr {
+      width: 350px;
+    }
+  }
+  
+  @media (max-width: 834px) {
+    .mileage-page {
+      padding: 10px;
+    }
+  
+    .card-gridd {
+      width: 350px;
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .mileage-page h1 {
+      font-size: 28px;
+    }
+  
+    .card-titlee {
+      font-size: 20px;
+    }
+  
+    .card-descriptionn {
+      font-size: 12px;
+    }
+  }
+    

@@ -1,0 +1,182 @@
+.luchshiy-container {
+    height: 550px;
+}
+
+.luchshiy-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 280px;
+}
+
+.luchshiy-images-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.luchshiy-image-item {
+    width: 255px;
+    height: 280px;
+}
+
+.luchshiy-credit-calculator {
+    font-size: 32px;
+    align-items: center;
+    margin-left: 330px;
+    margin-top: 140px;
+}
+
+
+
+
+
+
+@media (max-width: 1258px) {
+    .luchshiy-container {
+        height: 550px;
+    }
+    
+    .luchshiy-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 80px;
+    }
+    
+    .luchshiy-images-container {
+        display: flex;
+        gap: 125px;
+        justify-content: center;
+        margin-left:-170px;
+    }
+    
+    .luchshiy-image-item {
+        width: 140px;
+        height: 190px;
+    }
+    
+    .luchshiy-credit-calculator {
+        font-size: 32px;
+        align-items: center;
+        margin-left: 130px;
+        margin-top: 200px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 834px) {
+    .luchshiy-title {
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .luchshiy-images-container {
+        flex-direction: row;  
+        flex-wrap: wrap;       
+      width: 834px;
+      margin-left: -60px;
+        justify-content: center; 
+    }
+
+    .luchshiy-image-item {
+        width: 220px;   
+        height: 242px; 
+        margin-bottom: -70px;  
+       
+    }
+
+    .luchshiy-credit-calculator {
+        font-size: 28px;
+        margin-left: -380px;
+        margin-top: 250px;
+        text-align: center;
+    }
+    .luchshiy-container {
+        height: 850px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 360px) {
+    .luchshiy-title {
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .luchshiy-images-container {
+        flex-direction: row;  
+        flex-wrap: wrap;       
+      width: 360px;
+      margin-left: -60px;
+        justify-content: center; 
+    }
+
+    .luchshiy-image-item {
+        width: 220px;   
+        height: 242px; 
+        margin-bottom: -70px;  
+       
+    }
+
+    .luchshiy-credit-calculator {
+     display: none;
+    }
+    .luchshiy-container {
+        height: 1500px;
+    }
+    
+}

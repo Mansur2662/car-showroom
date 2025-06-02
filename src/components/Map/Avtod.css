@@ -1,0 +1,76 @@
+.avtod-container {
+    margin-top: 230px;
+    background-image: url("/maps/Map-1.png");
+    width: 1758px;
+    height: 560px;
+}
+
+.avtod-image {
+    width: 400px;
+    height: 301px;
+    margin-left: 780px;
+    margin-top: 93px;
+}
+
+
+
+
+@media (max-width: 1258px) {
+    .avtod-container{
+        width: 1258px;
+        height: 560px;
+    }
+    .avtod-image{
+        width: 400px;
+        height: 301px;
+        margin-left: 550px;
+        margin-top: 80px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 834px) {
+    .avtod-container{
+        width: 834px;
+        height: 560px;
+    }
+    .avtod-image{
+        width: 400px;
+        height: 301px;
+        margin-left: 250px;
+        margin-top: 145px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .avtod-container{
+        width: 360px;
+        height: 560px;
+    }
+    .avtod-image{
+        width: 190px;
+        height: 180px;
+        margin-left: 50px;
+        margin-top: 145px;
+    }
+}
